@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+
+<body>
+    <form action="https://formspree.io/f/mzbonrww" method="POST">
+
+        <input type="text" name="name" id="name" placeholder="Imię"> <br>
+
+        <input type="text" name="lastname" id="lastname" placeholder="Nazwisko"> <br>
+
+        <input type="email" id="email" placeholder="Podaj adres e-mail"> <br>
+
+        <input type="number" id="phone" placeholder="Podaj numer telefonu"> <br>
+        <select name="select">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa" selected>Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select> <br>
+        Płeć <br>
+        <input type="radio" name="gender">Mężczyzna <br>
+        <input type="radio" name="gender">Kobieta <br>
+        Zgoda na przetwarzanie danych osobowych
+        <input type="checkbox" name="agreement"> <br>
+        Wiadomość
+        <textarea name="message"></textarea> <br>
+        <button type="submit">Wyślij formularz</button> <br>
+    </form>
+
+</body>
+
+</html>
